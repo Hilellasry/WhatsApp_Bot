@@ -67,9 +67,9 @@ while True:
     new_massage()
     copy_massage()
     print(copy_massage())
-    if(copy_massage() == "בדיחה"):
+    if(copy_massage() == "joke"):
      replay(pyjokes.get_joke(language="en", category="neutral"))
      
-    if(copy_massage() == "די די"):
+    if(copy_massage() == "stop stop"):
         print("off")
         break
